@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# 🎓 Favourite Students App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, lightweight React application designed to manage and track favourite students with a clean and intuitive user interface. This project demonstrates efficient state management, component-based architecture, and seamless navigation using React Router.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Overview
 
-### `npm start`
+The **Favourite Students App** allows users to browse a list of students and mark/unmark them as favourites. It is built with a focus on simplicity, scalability, and user experience.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project highlights core frontend development concepts such as:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- State management using React Context API  
+- Client-side routing with React Router  
+- Reusable and modular component design  
+- Clean UI with responsive styling  
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ✨ Features
 
-### `npm run build`
+- 📋 View a list of students with details  
+- ⭐ Add students to favourites  
+- ❌ Remove students from favourites  
+- 🔁 Real-time UI updates  
+- 🔗 Smooth navigation between pages  
+- 🎯 Simple and user-friendly interface  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- ⚛️ React.js  
+- 🔀 React Router DOM  
+- 🎨 CSS3  
+- 🧠 Context API (State Management)  
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📁 Project Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+src/
+├── context/
+│ └── StudentContext.js
+├── data/
+│ └── students.js
+├── pages/
+│ ├── StudentList.js
+│ └── FavouriteStudents.js
+├── App.js
+├── App.css
+└── index.js
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🧩 How It Works
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- The application uses a centralized **Context API** to manage favourite students  
+- Users can toggle favourites directly from the student list  
+- Favourite data is dynamically updated and reflected across pages  
+- Navigation is handled efficiently using React Router  
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📌 Future Enhancements
 
-### Analyzing the Bundle Size
+- 🔍 Search and filter functionality  
+- 💾 Persistent storage (LocalStorage / Database)  
+- 📱 Improved responsive design  
+- 🌐 Backend integration for real-time data  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions are welcome! Feel free to fork this repository and submit a pull request with improvements or new features.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📜 License
 
-### Deployment
+This project is open-source and available under the MIT License.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 💡 Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Kanaga Raj**  
+Passionate about building clean, efficient, and user-focused web applications.
+
+---
+
+## ⭐ Support
+
+If you found this project helpful, consider giving it a star ⭐ on GitHub!
